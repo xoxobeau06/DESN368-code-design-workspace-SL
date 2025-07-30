@@ -1,4 +1,4 @@
-# 🎉 Welcome to DESN368 Web Design!
+# 🎉 Welcome to DESN368 CODE + DESIGN!
 
 **Congratulations!** You have successfully joined the course and created your portfolio repository. This will be your home base for all coursework, projects, and professional portfolio development.
 
