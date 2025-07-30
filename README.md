@@ -33,6 +33,8 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 
 ### **How to Update Your Toolkit:**
 1. **Click the pencil icon** (✏️) at the top right of this README
+<img width="686" height="196" alt="CleanShot 2025-07-30 at 15 26 50@2x" src="https://github.com/user-attachments/assets/65fd7801-7eb7-4991-9c3a-aecbc77cf1ae" />
+
 2. **Replace the placeholder text** with your actual profile information:
    - Change `[Add your Figma username here]` to your actual Figma username
    - Change `[Add your CodePen profile URL here]` to `https://codepen.io/YourUsername`
