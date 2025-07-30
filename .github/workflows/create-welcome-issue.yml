@@ -1,6 +1,6 @@
 name: Create Welcome Issue
 on:
-  push:
+ create:
     branches:
       - main  # or master, depending on your default branch
 
