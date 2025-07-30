@@ -88,19 +88,31 @@ Figma is our professional design tool for creating mockups, prototypes, and coll
 
 ---
 
-## 🔄 Complete Setup Verification
+## 🔄 Complete Setup Verification (Final Step)
 
 Once all tools are set up:
 
-1. **Update Your Portfolio README:**
-   - Add all your profile URLs to the "My Toolkit" section
-   - Commit and push changes
+### **1. Update Your Portfolio README**
+👉 **Go back to your main repository page** and click on `README.md`
 
-2. **Submit to Canvas:**
-   - Submit your GitHub repository URL
-   - Include all your profile links in the submission text
+**Add your profile URLs to the "My Toolkit" section:**
+- Replace `[Add your Figma username here]` with your actual Figma username
+- Replace `[Add your CodePen profile URL here]` with `https://codepen.io/YourUsername`  
+- Replace `[Add your FCC profile URL here]` with `https://www.freecodecamp.org/YourUsername`
 
-3. **You're Done!** 🎉
+**How to edit:**
+1. Click the pencil icon (✏️) at the top right of the README
+2. Make your changes
+3. Scroll to bottom and click "Commit changes"
+
+### **2. Submit to Canvas**
+- Submit your GitHub repository URL: `https://github.com/[organization]/[repository-name]`
+- Include all your profile links in the submission text
+
+### **3. You're Done!** 🎉
+- All tools are ready for the course
+- Your portfolio is live and professional  
+- You're set up for success in DESN368!
 
 ---
 
