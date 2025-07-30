@@ -1,8 +1,14 @@
+# .github/workflows/create-welcome-issue.yml
 name: Create Welcome Issue
 on:
- push:
-    branches:
-      - main  # or master, depending on your default branch
+  workflow_run:
+    workflows: ["Bootstrap Workflow"]
+    types:
+      - completed
+
+permissions:
+  contents: write
+  issues: write
 
 jobs:
   create_issue:
@@ -12,7 +18,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            // Check if a welcome issue already exists
+            // Check if issue already exists
             const { data: issues } = await github.rest.issues.listForRepo({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -27,4 +33,6 @@ jobs:
                 title: "👋 Welcome!",
                 body: "Thanks for accepting the assignment! Please follow the instructions here..."
               });
+            } else {
+              console.log("👋 Welcome issue already exists. Skipping.");
             }
