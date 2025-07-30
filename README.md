@@ -1,48 +1,98 @@
-# DESN368 CODE + DESIGN 1
-**Student:** [Your Name]  
-**Course:** DESN368 CODE + DESIGN 1
-**Semester:** Fall 2025
+# 🎉 Welcome to DESN368 Web Design!
 
-## 🔗 Course Resources
-
-### **Primary Course Hub**
-- [📌 Milanote Course Home](https://app.milanote.com/your-course-board-id) - Main course board with assignments & resources
-
-### **Learning Platforms** 
-- [📚 Canvas LMS](https://canvas.ewu.edu) - Grades and official submissions
-- [💻 GitHub Classroom](https://classroom.github.com/classrooms/your-classroom) - Code repositories
-- [🎨 Figma Team](https://www.figma.com/files/team/1487582992593000920/) - Design projects
-
-### **Practice & Reference**
-- [📖 Course Syllabus](https://your-syllabus-link)
-- [🏃‍♂️ FreeCodeCamp Track](https://www.freecodecamp.org/learn/responsive-web-design/) - Recommended learning path
-- [📝 CodePen Collection](https://codepen.io/collection/your-collection) - Course examples
-
-### **Support**
-- [✉️ Instructor Email](mailto:tmasingale@ewu.edu)
-- **Office Hours:** Mon/Wed 1-2pm, Tues/Thurs 12:30-1:30
-- **Location:** Catalyst Room 159
-
-## 🎯 Course Progress
-- [ ] Week 1: Tool Setup & Web Evolution
-- [ ] Week 2: HTML Fundamentals
-- [ ] Week 3: CSS Styling
-- [ ] [Continue for all weeks...]
-
-## 🛠️ My Toolkit
-- **GitHub:** [This Repository]
-- **Figma:** [Your Figma Profile]
-- **CodePen:** [Your CodePen Profile] 
-- **FreeCodeCamp:** [Your FCC Profile]
-
-## 📁 Portfolio Structure
-- `/setup/` - Tool setup and verification
-- `/week01/` - Week 1 assignments and projects
-- `/projects/` - Major course projects
-- `/experiments/` - CodePen experiments and practice
+**Congratulations!** You have successfully joined the course and created your portfolio repository. This will be your home base for all coursework, projects, and professional portfolio development.
 
 ---
-**🔗 Quick Links:**
-- [Setup Checklist](setup/ONBOARDING-CHECKLIST.md)
-- [Course Canvas](https://canvas.ewu.edu)
-- [Instructor: Travis Masingale](mailto:tmasingale@ewu.edu)
+
+## 🚀 **NEXT STEPS - START HERE!**
+
+### **Step 1: Complete Your Tool Setup**
+👉 **Navigate to the setup folder** → **Click on `ONBOARDING-CHECKLIST.md`**
+
+*You can find the setup folder in the file navigator to your right, or [click here to go directly to your checklist](setup/ONBOARDING-CHECKLIST.md).*
+
+### **Step 2: Update This README**
+As you complete each tool setup, **come back and update the "My Toolkit" section below** with your actual profile links.
+
+---
+
+## 👤 **Student Information**
+**Name:** [Replace with your full name]  
+**Email:** [Replace with your @ewu.edu email]  
+**Course:** DESN368 Web Design 1  
+**Semester:** Fall 2024  
+**Instructor:** Travis Masingale
+
+## 🛠️ **My Toolkit**
+*Update these links as you complete each tool setup:*
+
+- **GitHub:** [This Repository] ✅ (Complete!)
+- **Figma:** [Add your Figma username here] ⏳
+- **CodePen:** [Add your CodePen profile URL here] ⏳  
+- **FreeCodeCamp:** [Add your FCC profile URL here] ⏳
+
+### **How to Update Your Toolkit:**
+1. **Click the pencil icon** (✏️) at the top right of this README
+2. **Replace the placeholder text** with your actual profile information:
+   - Change `[Add your Figma username here]` to your actual Figma username
+   - Change `[Add your CodePen profile URL here]` to `https://codepen.io/YourUsername`
+   - Change `[Add your FCC profile URL here]` to `https://www.freecodecamp.org/YourUsername`
+3. **Scroll to bottom and click "Commit changes"**
+4. **Repeat this process** each time you complete a new tool setup
+
+---
+
+## 🎯 **Course Progress**
+*Check off assignments as you complete them:*
+
+- [ ] **Week 1:** Tool Setup & Web Evolution
+- [ ] **Week 2:** HTML Fundamentals  
+- [ ] **Week 3:** CSS Styling
+- [ ] **Week 4:** Responsive Design
+- [ ] **Week 5:** JavaScript Basics
+- [ ] *[More weeks will be added as course progresses...]*
+
+---
+
+## 📁 **Repository Structure**
+Here's what's in your portfolio repository:
+
+- **`/setup/`** - 📋 Tool setup guides and verification checklist
+- **`/week01/`** - 📝 Week 1 assignments and projects
+- **`/projects/`** - 🎨 Major course projects and portfolio pieces
+- **`README.md`** - 📖 This file - your portfolio home page
+
+---
+
+## 🔗 **Course Resources**
+
+### **Primary Course Hub**
+- **📌 Milanote Course Home** - [Course board with assignments & resources](https://app.milanote.com/your-course-board-id)
+
+### **Learning Platforms** 
+- **📚 Canvas LMS** - [Grades and official submissions](https://canvas.ewu.edu)
+- **💻 GitHub Classroom** - [Code repositories](https://classroom.github.com/classrooms/your-classroom)
+- **🎨 Figma Team** - [Design projects](https://www.figma.com/files/team/1487582992593000920/)
+
+### **Practice & Reference**
+- **📖 Course Syllabus** - [Course policies and schedule](https://your-syllabus-link)
+- **🏃‍♂️ FreeCodeCamp Track** - [Recommended learning path](https://www.freecodecamp.org/learn/responsive-web-design/)
+
+### **Support**
+- **✉️ Instructor Email:** [tmasingale@ewu.edu](mailto:tmasingale@ewu.edu)
+- **🏢 Office Hours:** Mon/Wed 1-2pm, Tues/Thurs 12:30-1:30
+- **📍 Location:** Catalyst Room 159
+
+---
+
+## 🆘 **Need Help?**
+
+**Stuck on setup?** Check the [troubleshooting guides](setup/) in your setup folder.
+
+**Technical issues?** Email your instructor or visit office hours.
+
+**Want to see examples?** Browse other students' public repositories for inspiration.
+
+---
+
+**🎯 Ready to start? [Go to your setup checklist now!](setup/ONBOARDING-CHECKLIST.md)**
