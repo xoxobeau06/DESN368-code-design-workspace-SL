@@ -17,11 +17,11 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 ---
 
 ## 👤 **Student Information**
-**Name:** [Replace with your full name]  
-**Email:** [Replace with your @ewu.edu email]  
-**Course:** DESN368 Web Design 1  
-**Semester:** Fall 2024  
-**Instructor:** Travis Masingale
+**Instructor:** Professor Travis Masingale
+**Email:** tmasingale@ewu.edu  
+**Course:** DESN368 CODE + DESIGN 1 
+**Semester:** Fall 2025  
+
 
 ## 🛠️ **My Toolkit**
 *Update these links as you complete each tool setup:*
