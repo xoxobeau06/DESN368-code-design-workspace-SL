@@ -1,0 +1,30 @@
+name: Create Welcome Issue
+on:
+  push:
+    branches:
+      - main  # or master, depending on your default branch
+
+jobs:
+  create_issue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            // Check if a welcome issue already exists
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open"
+            });
+            const exists = issues.some(issue => issue.title === "👋 Welcome!");
+            
+            if (!exists) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: "👋 Welcome!",
+                body: "Thanks for accepting the assignment! Please follow the instructions here..."
+              });
+            }
