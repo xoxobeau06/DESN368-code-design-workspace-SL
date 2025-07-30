@@ -2,7 +2,7 @@
 
 ## Progress Tracker
 - [x] ✅ GitHub Account & Portfolio Repository (Auto-completed!)
-- [ ] 🎨 Figma Education Account & Team Access
+- [x] 🎨 Figma Education Account & Team Access
 - [ ] 💻 CodePen Account & Profile
 - [ ] 📚 FreeCodeCamp Account & Profile Setup
 - [ ] 🔄 Complete Setup Verification
