@@ -1,9 +1,18 @@
 ---
 name: Welcome & Getting Started
 about: Your first steps in DESN368
-title: "🚀 Welcome [Your Name] - Start Here!"
-labels: getting-started
+title: "\U0001F680 Welcome [Your Name] - Start Here!"
+labels: ''
 assignees: ''
+
+---
+
+---
+name: "Welcome"
+about: "A welcome message and instructions for the student"
+title: "👋 Welcome!"
+labels: ["welcome"]
+assignees: ""
 ---
 
 ## Welcome to DESN368! 🎉
