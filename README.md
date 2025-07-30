@@ -20,3 +20,9 @@
 - `/week01/` - Week 1 assignments and projects
 - `/projects/` - Major course projects
 - `/experiments/` - CodePen experiments and practice
+
+---
+**🔗 Quick Links:**
+- [Setup Checklist](setup/ONBOARDING-CHECKLIST.md)
+- [Course Canvas](https://canvas.ewu.edu)
+- [Instructor: Travis Masingale](mailto:tmasingale@ewu.edu)
