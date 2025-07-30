@@ -1,7 +1,7 @@
-# DESN368 Web Design Portfolio
+# DESN368 CODE + DESIGN 1
 **Student:** [Your Name]  
-**Course:** DESN368 Web Design 1  
-**Semester:** Fall 2024
+**Course:** DESN368 CODE + DESIGN 1
+**Semester:** Fall 2025
 
 ## 🎯 Course Progress
 - [ ] Week 1: Tool Setup & Web Evolution
