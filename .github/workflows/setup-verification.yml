@@ -1,6 +1,6 @@
 name: Student Setup Verification
 on:
-  push:
+  create:
     paths: 
       - 'setup/ONBOARDING-CHECKLIST.md'
       - 'README.md'
