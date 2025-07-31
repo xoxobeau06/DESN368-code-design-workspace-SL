@@ -1,11 +1,12 @@
 name: Create Welcome Issue
 on:
-  push:
-    branches: [main]
+  workflow_run:
+    workflows: [ "Bootstrap Workflow" ]
+    types: [ completed ]
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   issues: write
 
 jobs:
@@ -17,22 +18,48 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const { data: issues } = await github.rest.issues.listForRepo({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              state: "open",
-              labels: "welcome"
-            });
-            
-            if (issues.length === 0) {
-              await github.rest.issues.create({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                title: "🚀 Welcome to DESN368 - Start Here!",
-                labels: ["welcome"],
-                body: "## Welcome to your portfolio repository!\n\nComplete your [setup checklist](setup/ONBOARDING-CHECKLIST.md) to get started.\n\n### Next Steps:\n1. Follow the setup checklist\n2. Update your README with your profile links\n3. Submit to Canvas when complete\n\nClose this issue when you're done!"
-              });
-              console.log("✅ Welcome issue created!");
-            } else {
-              console.log("👋 Welcome issue already exists");
+            const owner = context.repo.owner;
+            const repo  = context.repo.repo;
+            const title = "🚀 Welcome to DESN368 - Start Here!";
+            const labelName = "welcome";
+
+            // Ensure label exists (avoid failures if it's missing)
+            try {
+              await github.rest.issues.getLabel({ owner, repo, name: labelName });
+            } catch (e) {
+              if (e.status === 404) {
+                await github.rest.issues.createLabel({
+                  owner, repo, name: labelName, color: "0E8A16", description: "Auto-created welcome label"
+                });
+              } else {
+                throw e;
+              }
             }
+
+            // Skip if already present
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner, repo, state: "open", labels: labelName, per_page: 100
+            });
+            if (issues.some(i => i.title === title)) {
+              console.log("Welcome issue already exists.");
+              return;
+            }
+
+            await github.rest.issues.create({
+              owner, repo,
+              title,
+              labels: [labelName],
+              body: [
+                "## Welcome to your portfolio repository!",
+                "",
+                "Complete your [setup checklist](setup/ONBOARDING-CHECKLIST.md) to get started.",
+                "",
+                "### Next Steps:",
+                "1. Follow the setup checklist",
+                "2. Update your README with your profile links",
+                "3. Submit to Canvas when complete",
+                "",
+                "Close this issue when you're done!"
+              ].join("\n")
+            });
+            console.log("✅ Welcome issue created!");
