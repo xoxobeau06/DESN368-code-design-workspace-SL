@@ -1,0 +1,41 @@
+name: Test Issue Creation
+on:
+  workflow_dispatch: # Manual trigger only
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - name: Debug info
+        run: |
+          echo "Repository: ${{ github.repository }}"
+          echo "Actor: ${{ github.actor }}"
+          echo "Event: ${{ github.event_name }}"
+          
+      - name: Create test issue
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            console.log('🔍 Starting issue creation...');
+            
+            try {
+              const result = await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: "🧪 Test Issue - " + new Date().toISOString(),
+                body: "This is a test issue to verify workflows are working."
+              });
+              
+              console.log('✅ Issue created successfully!');
+              console.log('Issue URL:', result.data.html_url);
+              
+            } catch (error) {
+              console.error('❌ Error creating issue:', error);
+              throw error;
+            }
