@@ -7,4 +7,4 @@ jobs:
   trigger:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "✅ First push detected, handing off to follow-up workflows"
+      - run: echo "First push detected. Handing off to Create Welcome Issue."
