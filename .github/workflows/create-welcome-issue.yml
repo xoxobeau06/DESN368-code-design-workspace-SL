@@ -1,9 +1,7 @@
 name: Create Welcome Issue
 on:
-  workflow_run:
-    workflows: [ "Bootstrap Workflow" ]
-    types: [ completed ]
-  workflow_dispatch:
+  create: # Triggers when the repository branch is first created
+  workflow_dispatch: # Allows manual triggering for testing
 
 permissions:
   contents: write
