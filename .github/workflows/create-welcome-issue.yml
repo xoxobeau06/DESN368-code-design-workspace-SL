@@ -1,38 +1,74 @@
-# .github/workflows/create-welcome-issue.yml
 name: Create Welcome Issue
 on:
-  workflow_run:
-    workflows: ["Bootstrap Workflow"]
-    types:
-      - completed
+  create:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Allows manual triggering
 
 permissions:
-  contents: write
+  contents: read
   issues: write
 
 jobs:
-  create_issue:
+  create_welcome_issue:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/github-script@v6
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Create welcome issue
+        uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            // Check if issue already exists
+            // Check if welcome issue already exists
             const { data: issues } = await github.rest.issues.listForRepo({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              state: "open"
+              state: "all",
+              labels: "welcome"
             });
-            const exists = issues.some(issue => issue.title === "👋 Welcome!");
             
-            if (!exists) {
+            const welcomeIssueExists = issues.length > 0;
+            
+            if (!welcomeIssueExists) {
               await github.rest.issues.create({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                title: "👋 Welcome!",
-                body: "Thanks for accepting the assignment! Please follow the instructions here..."
+                title: "🚀 Welcome to DESN368 - Start Here!",
+                labels: ["welcome", "getting-started"],
+                body: `## 🎉 Welcome to DESN368 Web Design!
+
+**Congratulations!** You've successfully created your portfolio repository.
+
+### ✅ **Your Next Steps:**
+
+1. **[ ] Complete the [Setup Checklist](setup/ONBOARDING-CHECKLIST.md)**
+2. **[ ] Update your [README.md](README.md) with your personal information**
+3. **[ ] Add your profile links to the "My Toolkit" section**
+4. **[ ] Submit your repository URL to Canvas**
+
+### 🛠️ **Tools You'll Set Up:**
+- **GitHub** ✅ (You're here!)
+- **Figma** - Design and prototyping
+- **CodePen** - Code experiments  
+- **FreeCodeCamp** - Interactive learning
+
+### 🆘 **Need Help?**
+- Check the setup guides in the \`/setup/\` folder
+- Email: tmasingale@ewu.edu
+- Office Hours: Mon/Wed 1-2pm, Tues/Thurs 12:30-1:30
+
+### 🎯 **Ready to Start?**
+👉 **[Go to your setup checklist now!](setup/ONBOARDING-CHECKLIST.md)**
+
+---
+**Close this issue when you've completed all setup steps!** ✨`
               });
+              console.log("✅ Welcome issue created successfully!");
             } else {
-              console.log("👋 Welcome issue already exists. Skipping.");
+              console.log("👋 Welcome issue already exists. Skipping creation.");
             }
