@@ -30,16 +30,7 @@ jobs:
                 repo: context.repo.repo,
                 title: "🚀 Welcome to DESN368 - Start Here!",
                 labels: ["welcome"],
-                body: `## Welcome to your portfolio repository!
-
-Complete your [setup checklist](setup/ONBOARDING-CHECKLIST.md) to get started.
-
-### Next Steps:
-1. Follow the setup checklist
-2. Update your README with your profile links  
-3. Submit to Canvas when complete
-
-Close this issue when you're done!`
+                body: "## Welcome to your portfolio repository!\n\nComplete your [setup checklist](setup/ONBOARDING-CHECKLIST.md) to get started.\n\n### Next Steps:\n1. Follow the setup checklist\n2. Update your README with your profile links\n3. Submit to Canvas when complete\n\nClose this issue when you're done!"
               });
               console.log("✅ Welcome issue created!");
             } else {
