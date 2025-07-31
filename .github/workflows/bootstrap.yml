@@ -1,0 +1,10 @@
+name: Bootstrap Workflow
+on:
+  push:
+    branches: [ main ]  # change to master if needed
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "✅ First push detected, handing off to follow-up workflows"
