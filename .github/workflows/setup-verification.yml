@@ -4,7 +4,7 @@ on:
     paths: 
       - 'setup/ONBOARDING-CHECKLIST.md'
       - 'README.md'
-  workflow_dispatch: # Allows manual triggering
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -43,7 +43,6 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            // Check if completion issue already exists
             const { data: issues } = await github.rest.issues.listForRepo({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -51,35 +50,4 @@ jobs:
               labels: "completed"
             });
             
-            const completionIssueExists = issues.length > 0;
-            
-            if (!completionIssueExists) {
-              await github.rest.issues.create({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                title: "🎉 Setup Complete - You're Ready!",
-                labels: ["completed", "celebration"],
-                body: `## 🎉 Congratulations!
-
-**You've successfully completed your DESN368 toolkit setup!**
-
-### ✅ **What You've Accomplished:**
-- GitHub portfolio repository created and configured
-- Figma account set up for design work
-- CodePen account ready for code experiments  
-- FreeCodeCamp profile configured for learning
-
-### 🚀 **Next Steps:**
-1. **Submit your Canvas assignment** with your GitHub repository URL
-2. **Start Week 1 assignments** in the \`week01/\` folder
-3. **Begin building your portfolio** with your first projects
-
-### 🌟 **Pro Tips:**
-- **Commit regularly** to track your progress
-- **Use meaningful commit messages** like "Add Week 1 HTML project"
-- **Keep your README updated** as you complete assignments
-
-**You're now ready to dive into web design! Close this issue and start creating! 🚀**`
-              });
-              console.log("🎉 Completion celebration issue created!");
-            }
+            const completionIssue
