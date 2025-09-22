@@ -1,7 +1,7 @@
 # 🚀 DESN368 Tool Setup Checklist
 
 ## Progress Tracker
-- [x] ✅ GitHub Account & Portfolio Repository (Auto-completed!)
+- [ ] 🐙 GitHub Account & Portfolio Repository 
 - [ ] 🎨 Figma Education Account & Team Access
 - [ ] 💻 CodePen Account & Profile
 - [ ] 📚 FreeCodeCamp Account & Profile Setup
