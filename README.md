@@ -26,7 +26,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 ## 🛠️ **My Toolkit**
 *Update these links as you complete each tool setup:*
 
-- **GitHub:** [This Repository] ✅ (Complete!)
+- **GitHub:** [This Repository] ⏳
 - **Figma:** [Add your Figma username here] ⏳
 - **CodePen:** [Add your CodePen profile URL here] ⏳  
 - **FreeCodeCamp:** [Add your FCC profile URL here] ⏳
