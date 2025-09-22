@@ -4,7 +4,6 @@
 - [ ] 🐙 GitHub Account & Portfolio Repository 
 - [ ] 🎨 Figma Education Account & Team Access
 - [ ] 💻 CodePen Account & Profile
-- [ ] 📚 FreeCodeCamp Account & Profile Setup
 - [ ] 🔄 Complete Setup Verification
 
 ---
@@ -57,31 +56,6 @@ Figma is our professional design tool for creating mockups, prototypes, and coll
 
 ---
 
-## 📚 FreeCodeCamp Setup (Step 4 of 4)
-
-### Setup Process:
-1. **Create Account:**
-   - Go to: https://www.freecodecamp.org/
-   - Sign up with email or through GitHub (recommended)
-
-2. **Complete Your Profile:**
-   - Click profile picture → Settings
-   - Add profile picture (optional)
-   - Set your name (can be private if preferred)
-   - Add bio: "Web Design Student at EWU"
-
-3. **Configure Privacy Settings:**
-   - ✅ Make your profile public
-   - ✅ Make your points public  
-   - ✅ Make your heat map public
-   - ✅ Make your portfolio public
-   - ✅ Make your timeline public
-   - Click "Save" at bottom
-
-4. **Get Your Profile URL:**
-   - Go to profile picture → "Public Portfolio"
-   - Copy URL: `https://www.freecodecamp.org/YourUsername`
-
 5. **Update This Checklist:**
    - Change `[ ]` to `[x]` next to "FreeCodeCamp Account & Profile Setup"
    - Commit and push your changes
@@ -92,7 +66,7 @@ Figma is our professional design tool for creating mockups, prototypes, and coll
 
 Once all tools are set up:
 
-### **1. Update Your Portfolio README**
+### **1. Update Your workspace README**
 👉 **Go back to your main repository page** and click on `README.md`
 
 **Add your profile URLs to the "My Toolkit" section:**
