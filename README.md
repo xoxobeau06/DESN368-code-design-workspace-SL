@@ -1,7 +1,7 @@
 # 🎉 Welcome to DESN368 CODE + DESIGN ONE!
 
 **Welcome to DESN368 Web Design!**  
-You're viewing the instructor's course repository. This serves as your reference and source for all course materials.  
+You're viewing the instructor's course repository(repo). This serves as your reference and source for all course materials.  
 
 **Important:** You'll fork this repository to create your own personal workspace. Think of it like this:  
 - **This repo** = Course textbook (read-only, updated weekly)  
