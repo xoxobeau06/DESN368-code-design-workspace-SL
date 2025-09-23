@@ -1,96 +1,85 @@
 # 🚀 DESN368 Tool Setup Checklist
 
 ## Progress Tracker
-- [ ] 🐙 GitHub Account & Portfolio Repository 
-- [ ] 🎨 Figma Education Account & Team Access
-- [ ] 💻 CodePen Account & Profile
-- [ ] 🔄 Complete Setup Verification
+- [ ] 🐙 GitHub Account  
+- [ ] 🗂️ Workspace Setup (fork repo + README update)  
+- [ ] 🎨 Figma Education Account & Team Access  
+- [ ] 💻 CodePen Account & Profile  
+- [ ] ⚡ LiveCode Profile  
+- [ ] 🎁 GitHub Student Developer Pack  
+- [ ] 🔄 Complete Setup Verification  
 
 ---
 
-## 🎨 Figma Setup (Step 2 of 4)
+## 🐙 GitHub Account (Step 1 of 6)
 
-### Why Figma?
-Figma is our professional design tool for creating mockups, prototypes, and collaborative design work.
-
-### Setup Process:
-1. **Apply for Figma Education Plan:**
-   - Go to: https://www.figma.com/education/apply
-   - Use your **@ewu.edu email address**
-   - Upload the same verification documents you used for GitHub Student Pack:
-     - EWU Student ID photo
-     - EagleNet registration screenshot
-
-2. **Join Our Course Team:**
-   - After education approval, join: https://www.figma.com/team_invite/redeem/0hBGYGZVHWrikEI5GB0Y4F
-   - Team password: `spring25` (if prompted)
-
-3. **Update This Checklist:**
-   - Change `[ ]` to `[x]` next to "Figma Education Account & Team Access"
-   - Commit and push your changes
-
-**⏰ Note:** Education approval may take 1-2 days. You can join the team with a free account and upgrade later.
+1. Go to: [https://github.com/join](https://github.com/join)  
+2. Use your **@ewu.edu** email address.  
+3. Choose a **professional username** (this becomes part of your portfolio URL).  
+4. Verify your email.  
 
 ---
 
-## 💻 CodePen Setup (Step 3 of 4)
+## 🗂️ Workspace Setup (Step 2 of 6)
 
-### Setup Process:
-1. **Create Account:**
-   - Go to: https://codepen.io/accounts/signup
-   - Choose a **professional username** (this becomes part of your portfolio URL!)
-   - Verify your email
-
-2. **Profile Setup:**
-   - Add profile photo (optional but recommended)
-   - Add brief bio: "Web Design Student at Eastern Washington University"
-   - Make your profile public
-
-3. **Get Your Profile URL:**
-   - Your URL will be: `https://codepen.io/YourUsername`
-   - Add this to your GitHub portfolio README
-
-4. **Update This Checklist:**
-   - Change `[ ]` to `[x]` next to "CodePen Account & Profile"
-   - Commit and push your changes
+1. Go to the course repository: [DESN368-code-design-workspace](https://github.com/sicxz/DESN368-code-design-workspace)  
+2. Click **Fork** (top right) → this creates your personal copy.  
+3. In your forked repo:  
+   - Edit `README.md` and update your **My Toolkit** section with links as you complete each tool setup.  
+   - Commit your changes.  
 
 ---
 
-5. **Update This Checklist:**
-   - Change `[ ]` to `[x]` next to "FreeCodeCamp Account & Profile Setup"
-   - Commit and push your changes
+## 🎨 Figma Setup (Step 3 of 6)
+
+1. Apply for Figma Education: [https://www.figma.com/education/apply](https://www.figma.com/education/apply)  
+   - Use your **@ewu.edu** email.  
+   - Upload EWU ID + EagleNet screenshot.  
+2. Join our team: [Figma Team Invite](https://www.figma.com/team_invite/redeem/0hBGYGZVHWrikEI5GB0Y4F)  
+   - Team password: `spring25` (if prompted).  
+3. Update your README with your Figma username.  
+
+---
+
+## 💻 CodePen Setup (Step 4 of 6)
+
+1. Create an account: [https://codepen.io/accounts/signup](https://codepen.io/accounts/signup)  
+2. Choose a professional username.  
+3. Add a profile photo + bio (“Web Design Student at EWU”).  
+4. Grab your URL: `https://codepen.io/YourUsername`  
+5. Update your README with your CodePen link.  
+
+---
+
+## ⚡ LiveCode Setup (Step 5 of 6)
+
+1. Create an account at [LiveCode](https://livecode.com/) (or course-specific link if different).  
+2. Verify your email.  
+3. Update your README with your LiveCode profile link.  
+
+---
+
+## 🎁 GitHub Student Developer Pack (Step 6 of 6)
+
+1. Go to: [https://education.github.com/pack](https://education.github.com/pack)  
+2. Apply with your **@ewu.edu** email.  
+3. Upload proof of enrollment (same docs as Figma).  
 
 ---
 
 ## 🔄 Complete Setup Verification (Final Step)
 
-Once all tools are set up:
-
-### **1. Update Your workspace README**
-👉 **Go back to your main repository page** and click on `README.md`
-
-**Add your profile URLs to the "My Toolkit" section:**
-- Replace `[Add your Figma username here]` with your actual Figma username
-- Replace `[Add your CodePen profile URL here]` with `https://codepen.io/YourUsername`  
-- Replace `[Add your FCC profile URL here]` with `https://www.freecodecamp.org/YourUsername`
-
-**How to edit:**
-1. Click the pencil icon (✏️) at the top right of the README
-2. Make your changes
-3. Scroll to bottom and click "Commit changes"
-
-### **2. Submit to Canvas**
-- Submit your GitHub repository URL: `https://github.com/[organization]/[repository-name]`
-- Include all your profile links in the submission text
-
-### **3. You're Done!** 🎉
-- All tools are ready for the course
-- Your portfolio is live and professional  
-- You're set up for success in DESN368!
+1. Update your forked repo `README.md` → **My Toolkit** section:  
+   - GitHub repo URL  
+   - Figma username  
+   - CodePen URL  
+   - LiveCode link  
+2. Submit your repo link in Canvas.  
+3. 🎉 Done — your professional workspace is ready.  
 
 ---
 
 ## 🆘 Need Help?
 
-**Email:** tmasingale@ewu.edu  
-**Office Hours:** Mon/Wed 1-2pm, Tues/Thurs 12:30-1:30
+- **Email:** tmasingale@ewu.edu  
+- **Office Hours:** Mon/Wed 1–2pm, Tues/Thurs 12:30–1:30  
