@@ -79,7 +79,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 ## 📁 **Repository Structure**
 Here’s what’s in your portfolio repository:
 - **`/setup/`** - 📋 Tool setup guides and verification checklist  
-- **`/week01/`** - 📝 Week 1 assignments and projects  
+- **`/week-0/`** - 📝 Week 0 assignments and projects  
 - **`/projects/`** - 🎨 Major course projects and portfolio pieces  
 - **`README.md`** - 📖 This file - your portfolio home page  
 
@@ -91,17 +91,16 @@ Here’s what’s in your portfolio repository:
 
 ### **Learning Platforms**
 - **📚 Canvas LMS** - [Grades and official submissions](https://canvas.ewu.edu)  
-- **💻 GitHub Classroom** - [Code repositories](https://classroom.github.com/classrooms/your-classroom)  
-- **🎨 Figma Team** - [Design projects](https://www.figma.com/files/team/1487582992593000920/)  
+- **🎨 Figma Team** - [Design projects]([https://www.figma.com/files/team/1487582992593000920/](https://www.figma.com/team_invite/redeem/Ejdjv4RKPn68wmYmoD23Yf)  
 
 ### **Practice & Reference**
-- **📖 Course Syllabus** - [Course policies and schedule](https://your-syllabus-link)  
-- **🏃‍♂️ FreeCodeCamp Track** - [Recommended learning path](https://www.freecodecamp.org/learn/responsive-web-design/)  
+- **📖 Course Syllabus** - [Course policies and schedule](https://desn368-f25.netlify.app/syllabus/)  
+  
 
 ### **Support**
 - **✉️ Instructor Email:** [tmasingale@ewu.edu](mailto:tmasingale@ewu.edu)  
-- **🏢 Office Hours:** Mon/Wed 1–2pm, Tues/Thurs 12:30–1:30  
-- **📍 Location:** Catalyst Room 159  
+- **🏢 Office Hours:** Mon/Wed 1–2:30pm, Thurs 1:00–2p  
+- **📍 Location:** Catalyst Room 167  
 
 ---
 
