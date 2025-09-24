@@ -1,4 +1,5 @@
 # 🎉 Welcome to DESN368 CODE + DESIGN ONE!
+Sydney Lincoln 09/24/2025
 
 **Welcome to DESN368 Web Design!**  
 You're viewing the instructor's course repository(repo). This serves as your reference and source for all course materials.  
