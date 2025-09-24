@@ -11,7 +11,7 @@
 
 ---
 
-## 🐙 GitHub Account (Step 1 of 6)
+## 🐙 GitHub Account (Step 1.1 of 5)
 
 1. Go to: [https://github.com/join](https://github.com/join)  
 2. Use your **@ewu.edu** email address.  
@@ -19,8 +19,24 @@
 4. Verify your email.  
 
 ---
+## 🐙 Set Up Your GitHub Profile (1.2 of 5)
 
-## 🗂️ Workspace Setup (Step 2 of 6)
+1. Click your avatar (top right) → Your profile
+2. Click Edit profile
+Add:
+
+   Name: Your actual name (so I know who you are!)
+   Bio: Something like "DESN368 Student | Learning Web Design"
+   Location: Optional
+   Website: Optional (you'll have one soon!)
+
+
+Click Save
+Consider adding a profile photo (helps me learn names!)
+
+---
+
+## 🗂️ Workspace Setup (Step 2 of 5)
 
 1. Go to the course repository: [DESN368-code-design-workspace](https://github.com/sicxz/DESN368-code-design-workspace)  
 2. Click **Fork** (top right) → this creates your personal copy.  
@@ -30,7 +46,7 @@
 
 ---
 
-## 🎨 Figma Setup (Step 3 of 6)
+## 🎨 Figma Setup (Step 3 of 5)
 
 1. Apply for Figma Education: [https://www.figma.com/education/apply](https://www.figma.com/education/apply)  
    - Use your **@ewu.edu** email.  
@@ -41,7 +57,7 @@
 
 ---
 
-## 💻 CodePen Setup (Step 4 of 6)
+## 💻 CodePen Setup (Step 4 of 5)
 
 1. Create an account: [https://codepen.io/accounts/signup](https://codepen.io/accounts/signup)  
 2. Choose a professional username.  
@@ -51,15 +67,7 @@
 
 ---
 
-## ⚡ LiveCode Setup (Step 5 of 6)
-
-1. Create an account at [LiveCode](https://livecode.com/) (or course-specific link if different).  
-2. Verify your email.  
-3. Update your README with your LiveCode profile link.  
-
----
-
-## 🎁 GitHub Student Developer Pack (Step 6 of 6)
+## 🎁 GitHub Student Developer Pack (Step 5 of 5)
 
 1. Go to: [https://education.github.com/pack](https://education.github.com/pack)  
 2. Apply with your **@ewu.edu** email.  
