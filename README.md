@@ -13,7 +13,7 @@ You're viewing the instructor's course repository(repo). This serves as your ref
 1. Fork this repository (creating your own copy)  
 2. Your fork becomes your personal workspace  
 3. Each week, you’ll sync updates from here  
-4. By semester’s end, your fork transforms into a portfolio  
+4. By quarter’s end, your fork transforms into a portfolio  
 
 👉 Ready to create your workspace? Click **"Fork"** in the top right! →
 
