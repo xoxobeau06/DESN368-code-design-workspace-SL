@@ -3,8 +3,8 @@
 ## Progress Tracker
 - [X] 🐙 GitHub Account  
 - [X] 🗂️ Workspace Setup (fork repo + README update)  
-- [ ] 🎨 Figma Education Account & Team Access  
-- [ ] 💻 CodePen Account & Profile  
+- [X] 🎨 Figma Education Account & Team Access  
+- [X] 💻 CodePen Account & Profile  
 - [ ] ⚡ LiveCode Profile  
 - [ ] 🎁 GitHub Student Developer Pack  
 - [ ] 🔄 Complete Setup Verification  
