@@ -4,7 +4,7 @@
 - [X] 🐙 GitHub Account  
 - [X] 🗂️ Workspace Setup (fork repo + README update)  
 - [X] 🎨 Figma Education Account & Team Access  
-- [X] 💻 CodePen Account & Profile  
+- [X] 💻 CodePen Account & Profile 
 - [X] 🎁 GitHub Student Developer Pack  
 - [X] 🔄 Complete Setup Verification  
 
