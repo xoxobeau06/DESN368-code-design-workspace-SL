@@ -45,7 +45,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 - **Figma:** [https://www.figma.com/@sydneylincoln] ⏳
 - **CodePen:** [https://codepen.io/Sydney-Lincoln] ⏳
 - **LiveCode:** [https://livecode.com/account/update] Not Correct⏳
-- **GitHub Student Pack:** [Confirm approval status here] ⏳  
+- **GitHub Student Pack:** [https://github.com/settings/education/benefits] ⏳  
 
 ### **How to Update Your Toolkit:**
 1. **Click the pencil icon** (✏️) at the top right of this README  
