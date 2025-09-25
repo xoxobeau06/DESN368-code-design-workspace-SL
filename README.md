@@ -44,7 +44,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 - **Workspace (Forked Repo):** (https://github.com/xoxobeau06/DESN368-code-design-workspace-sydney) ⏳
 - **Figma:** [https://www.figma.com/@sydneylincoln] ⏳
 - **CodePen:** [https://codepen.io/Sydney-Lincoln] ⏳
-- **LiveCode:** [Add your LiveCode profile here] ⏳
+- **LiveCode:** [https://livecode.com/account/update] Not Correct⏳
 - **GitHub Student Pack:** [Confirm approval status here] ⏳  
 
 ### **How to Update Your Toolkit:**
