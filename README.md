@@ -41,7 +41,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 ## 🛠️ **My Toolkit**
 *Update these links as you complete each tool setup:*
 - **GitHub Profile:** (https://github.com/xoxobeau06)
-- **Workspace (Forked Repo):** (https://github.com/xoxobeau06/DESN368-code-design-workspace-sydney) ⏳
+- **Workspace (Forked Repo):**(https://github.com/xoxobeau06/DESN368-code-design-workspace-SL-new-copy?tab=readme-ov-file) ⏳
 - **Figma:** [https://www.figma.com/@sydneylincoln] ⏳
 - **CodePen:** [https://codepen.io/Sydney-Lincoln] ⏳
 - **LiveCode:** [https://livecode.com/account/update] Not Correct⏳
