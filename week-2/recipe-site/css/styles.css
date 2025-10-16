@@ -1,0 +1,50 @@
+body {
+  font-family: 'Oldenburg', cursive;
+  background-color: lightyellow;
+  color: #5d4037;
+  line-height: 1.6;
+}
+
+h2 {
+  font-size: large;
+}
+
+h3 {
+  color: pink;
+}
+
+ul, ol {
+  color: brown;
+  background-color: #fff0f5;
+
+  border-radius: 10px;
+}
+
+main {
+  max-width: 800px; 
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: pink;
+  font-size: xx-large;
+  text-align: center;
+
+}
+
+footer {
+  color: pink;
+  text-align: center;
+  font-size: small;
+  margin-top: 20px;
+}
+#intro p {
+  background-color: #fff0f5;  
+  padding: 15px 20px;          
+  border-radius: 10px;         
+  border: 2px solid pink; 
+  line-height: 1.6;          
+  font-style: italic;          
+  color: brown;               
+}
