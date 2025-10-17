@@ -13,4 +13,4 @@ Submit your completed CodePen links below:
 4. 04-chaining-selectors: (https://codepen.io/Sydney-Lincoln/pen/JoGOBqW?editors=1100)
 5. 05-descendant-combinator: (https://codepen.io/Sydney-Lincoln/pen/azdVamw)
 
-**Cascade Exercise:** 6. 01-cascade-fix: [Your CodePen link here]
+**Cascade Exercise:** 6. 01-cascade-fix:(https://codepen.io/Sydney-Lincoln/pen/wBMPRVK?editors=1100)
