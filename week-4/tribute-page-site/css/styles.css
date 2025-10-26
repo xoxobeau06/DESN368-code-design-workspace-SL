@@ -1,6 +1,76 @@
 body {
-    background-color: blueviolet;
-    min-height: 100vh;
-    margin: 0;
-    color: white;
+    background-color: #3E1E3C; /* A deep purple color */
+}
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+h1 {
+    font-family: "Playfair Display", serif;
+    color: #C7A86D; /* A rose gold/regular gold color */
+    text-align: center;
+    margin-top: 20px;
+    font-size: 64px;
+}
+h2 {
+    font-family: "Playfair Display", serif;
+    color: #C7A86D; /* A rose gold/regular gold color */
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+h3 {
+    font-family: Playfair Display, serif;
+    color: #C7A86D; /* A rose gold/regular gold color */
+    text-align: left;
+    margin-top: 10px;
+    font-size: 48px;
+    font-weight: semi-bold;
+}
+article {
+    background-color: #EADBD3; /* A light pink color */
+    border-radius: 10px;
+    border-bottom: #C7A86D 2px solid; /* A rose gold/regular gold color */
+    color: #3E1E3C; /* A deep purple color */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+figure {
+    text-align: center;
+      border-color: #C7A86D; /* A rose gold/regular gold color */
+    border-width: 2px;
+}
+figure img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; 
+    border: 6px solid #C7A86D; /* A rose gold/regular gold color */
+}
+blockquote {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    color: #C7A86D; /* A rose gold/regular gold color */
+    padding-left: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    font-size: 28px;
+} 
+figcaption {
+    font-family: "Playfair Display", serif;
+    color: #EADBD3; /* A light pink color */
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
 }
