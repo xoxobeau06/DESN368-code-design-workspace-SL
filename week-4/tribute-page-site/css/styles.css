@@ -1,6 +1,24 @@
 body {
     background-color: #3E1E3C; /* A deep purple color */
 }
+/* Background image styling 
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://snipboard.io/3nVz52.jpg');
+    opacity: 0.2;
+    z-index: -1;
+}*/
+.container {
+    max-width: 550px;
+    margin: 0 auto;
+    z-index: 1;
+
+}
+
 .playfair-display-<uniquifier> {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
@@ -20,25 +38,43 @@ h1 {
     margin-top: 20px;
     font-size: 64px;
 }
+.date {
+    text-align: center;
+    color: #EADBD3; /* A light pink color */
+}
+
 h2 {
     font-family: "Playfair Display", serif;
-    color: #C7A86D; /* A rose gold/regular gold color */
+    color: #EADBD3; /* A light pink color */
     text-align: center;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 16px;
 }
 h3 {
     font-family: Playfair Display, serif;
     color: #C7A86D; /* A rose gold/regular gold color */
     text-align: left;
     margin-top: 10px;
-    font-size: 48px;
+    font-size: 32px;
     font-weight: semi-bold;
 }
+h4{
+    font-family: Playfair Display, serif;
+    color: #C7A86D; /* A rose gold/regular gold color */
+    text-align: center;
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: semi-bold;
+}
+img { 
+    width: 353px;
+    height: 528px;
+}
+
 article {
     background-color: #EADBD3; /* A light pink color */
     border-radius: 10px;
-    border-bottom: #C7A86D 2px solid; /* A rose gold/regular gold color */
+    border: #C7A86D 2px solid; /* A rose gold/regular gold color */
     color: #3E1E3C; /* A deep purple color */
     padding: 20px;
     margin: 20px auto;
@@ -46,8 +82,6 @@ article {
 }
 figure {
     text-align: center;
-      border-color: #C7A86D; /* A rose gold/regular gold color */
-    border-width: 2px;
 }
 figure img {
     display: block;
@@ -73,4 +107,23 @@ figcaption {
     text-align: center;
     margin-top: 10px;
     font-size: 16px;
+}
+.list-item {
+    color:#EADBD3; /* A light pink color */
+
+}
+.info{
+    color:#EADBD3; /* A light pink color */
+}
+.close{
+    color: #EADBD3; /* A light pink color */
+    text-align: center;
+}
+.call{
+    color: #EADBD3; /* A light pink color */
+    text-align: center;
+}
+.year {
+    font-size: 18px;
+    font-weight: medium;
 }
