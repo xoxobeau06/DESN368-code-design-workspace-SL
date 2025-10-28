@@ -29,7 +29,7 @@ I found it really interesting that in just a span of roughly 30 years the design
 
 ---
 
-## Week 2 - [Topic Title]
+## Week 2 - D0cum3nt 4rch1t3ctur3
 
 **Topics Covered:**
 - [List main topics]
