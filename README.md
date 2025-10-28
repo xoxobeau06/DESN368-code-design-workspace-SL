@@ -2,13 +2,13 @@
 
 ## About This Repository
 
-This repository documents my learning journey in Web Design 1 (DESN368) during [Quarter/Year]. Here you'll find my projects, experiments, and exercises as I learn HTML, CSS, and the fundamentals of web design.
+This repository documents my learning journey in Web Design 1 (DESN368) during Fall 2025. Here you'll find my projects, experiments, and exercises as I learn HTML, CSS, and the fundamentals of web design.
 
 ## Course Overview
 
 - **Instructor:** Travis Masingale
-- **Institution:** [Your School]
-- **Term:** [Term/Year]
+- **Institution:** Eastern Washington University
+- **Term:** Fall 2025
 
 ---
 
@@ -21,10 +21,11 @@ This repository documents my learning journey in Web Design 1 (DESN368) during [
 - History of the web
 
 **Key Takeaways:**
-[Write 1-2 sentences about what you learned or found most interesting]
+I found it really interesting that in just a span of roughly 30 years the design of the internet is so incredibly differet, and the changes just keep getting faster as we progress through technology. I did my first baby code in HTML writing my manifesto
 
 **Files:**
-- [Link to specific files or note what's in the week-1 folder]
+- https://app.milanote.com/1V3iTV19jWZh3I/sydney-lincoln?p=jHMkPcMB5W4
+- https://app.milanote.com/1V3iTO19jWZh3t/sydney-lincoln?p=jHMkPcMB5W4
 
 ---
 
