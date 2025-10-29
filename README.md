@@ -32,33 +32,50 @@ I found it really interesting that in just a span of roughly 30 years the design
 ## Week 2 - D0cum3nt 4rch1t3ctur3
 
 **Topics Covered:**
-- [List main topics]
+- learning basic html structure
+- learning how to use VS code and codepen
+- continuing figma 101
 
 **Key Takeaways:**
-[Write 1-2 sentences about what you learned or found most interesting]
+Practicing html elements, and applying the code in assignments. Continuing navigation of Figma. 
 
 **Projects/Exercises:**
-- [Describe what you built or practiced]
+- Codedex Structure to Codepen
+- Migrating Codepen to VS Code
+- Figma logo and icon
+ 
 
 **Files:**
-- [Link to specific files or note what's in the week-2 folder]
+- https://canvas.ewu.edu/courses/1839909/assignments/10773000?module_item_id=24894449 (this is the submitted asignment
+- https://www.figma.com/design/a8nHZG6XQQasecM38V3Ivd/figma-101-pt3-sl-f25?node-id=0-1&t=axJlJTC3i7v25uP6-1
+- Lorem Ipsum: https://codepen.io/Sydney-Lincoln/pen/ogbwMJaLinks to an external site. 
+- Wiki Article: https://codepen.io/Sydney-Lincoln/pen/jEWwpdMLinks to an external site. 
+- Craigslist Add: https://codepen.io/Sydney-Lincoln/pen/EaPXprQLinks to an external site. 
 
 ---
 
-## Week 3 - [Topic Title]
+## Week 3 - Th3 C4sc4d3 B3g1n5
 
 **Topics Covered:**
-- [List main topics]
+- Recipe html assignment
+- semantic html
+- intro to CSS
+- start the tribute site
 
 **Key Takeaways:**
-[Write 1-2 sentences about what you learned or found most interesting]
+CSS makes you feel like you know nothing about computers. However CSS is what designs and make websites them pretty. 
+Semantic html is the way in which you can organize html by adding extra elements. 
 
 **Projects/Exercises:**
-- [Describe what you built or practiced]
+- Built the recipe html and styled it in CSS
+- Codeacadmey CSS challenge
+- Semantic html challenge
+- figma 101 pt 4
 
 **Files:**
-- [Link to specific files or note what's in the week-3 folder]
-
+- file:///Users/slincolnmarie/Downloads/semantics-challenge-lincolns.html
+- https://frolicking-capybara-98e39d.netlify.app/week-2/recipe-site/recipe (this link no longer works but it was the original submission link)
+- https://www.figma.com/design/fLN6H4EUrGCVmhLEYdjJqc/tribute-AngelaLansbury-SLIncoln-f25?node-id=1-3&p=f&t=j7MIqO434CxwLjzN-0
 ---
 
 ## Week 4 - Repository Organization & Documentation
@@ -69,7 +86,7 @@ I found it really interesting that in just a span of roughly 30 years the design
 - Markdown formatting
 
 **Key Takeaways:**
-[Write 1-2 sentences about what you learned]
+The box method is the russian nesting doll of web design, everything fits within another element. 
 
 **Tasks Completed:**
 - ✓ Organized repo with week folders
@@ -80,15 +97,15 @@ I found it really interesting that in just a span of roughly 30 years the design
 
 ## Resources
 
-- [Link to course materials]
-- [Link to helpful websites or tutorials you found]
-- [Any other resources you want to remember]
+- https://github.com/xoxobeau06/DESN368-code-design-workspace-SL you will be able to find my devtools practice
+- https://xoxobeau06.github.io/DESN368-code-design-workspace-SL/ (my github pages links)
 
 ## Tools Used
 
 - VS Code
 - Firefox Developer Edition
 - GitHub
-- [Other tools]
+- Codepen
+- Figma
 
 ---
