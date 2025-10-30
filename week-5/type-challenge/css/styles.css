@@ -1,0 +1,82 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #1c1b19;
+  background-color: #f8f6f3;
+  line-height: 1.6; 
+ 
+  max-width: 70ch; 
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  font-size: 18px;   
+}
+
+
+h1, h2, h3, h4 {
+  font-family: "Marcellus", serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #2a1f18;
+}
+
+h1 {
+  font-size: 1.2rem;   
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: #4b3b2f;
+  opacity: 0.9;
+}
+
+h2 {
+  font-size: 3rem;     
+  text-align: center;
+  margin: 1rem 0 2rem 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #2a1f18;
+  display: inline-block;
+  padding-bottom: 0.2rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #3e2b20;
+  margin-bottom: 1.2rem;
+}
+
+
+p {
+  font-size: 18px;  
+  color: #2a2724;
+  margin-bottom: 2em;  
+  text-align: justify;
+}
+
+/* removed invalid selector 'p:{' — if you want a drop-cap, we can add a proper ::first-letter rule */
+
+
+.thoughts {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;    
+  font-style: italic;
+  color: #44332a;
+  background-color: #f0ece8;
+  border-left: 3px solid #2a1f18;
+  padding: 1rem 1.5rem;
+  border-radius: 4px;
+  margin-top: 3rem;
+  line-height: 1.6;
+}
