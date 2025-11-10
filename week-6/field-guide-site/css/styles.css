@@ -14,15 +14,25 @@ body {
   color: #653A21;
   line-height: 1.6;
   /* background image: sibling images/ folder — use ../images and correct extension */
-  background-image: url("../images/leaf-background.jpg");
+  background-image: url("../images/leaf-background.jpg")  
 }
 
 h1,h2,h3{
   font-family: 'Gorditas', cursive;
   color: #A16D3F;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
+  margin-top: 0;
 }
-
+p {
+  margin-top: 0;
+}
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+li {
+  margin-top: 0;
+}
 .site-header {
   text-align: center;
   padding: 1rem;
@@ -33,9 +43,12 @@ h1,h2,h3{
   max-width: 700px;
   display: block;
   margin: 0 auto 0.5rem;
+  flex: auto;
+  width: 100%;
 }
 .palm-tree {
   max-width: 50px;
+  width: 100%;
   height: auto;
   margin: 0 1rem;
 }
@@ -69,10 +82,36 @@ h1,h2,h3{
 .content {
   margin-left: 220px;
   padding: 2rem;
+  max-width: 800px;
 }
 
 section {
   margin-bottom: 2rem;
+}
+pre code {
+  white-space: pre-wrap; /* Preserves whitespace and allows wrapping */
+  word-wrap: break-word; /* Breaks long words to prevent overflow */
+  overflow-wrap: break-word; /* Alias for word-wrap, ensures compatibility */
+  flex: auto;
+}
+code {
+  background-color: #DAECDE;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: auto;
+  margin-top: auto;
+  max-width: 100%;
+  flex: auto;
+}
+pre {
+  background-color: #DAECDE;
+  padding: .25rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  height: auto;
+  width: 800px;
+  max-width: 800px;
 }
 
 .button-row {
@@ -138,7 +177,12 @@ section {
   max-width: 48px;
   height: auto;
 }
-
+.footer-words {
+  max-width: 800px;
+  font-size: 0.875rem;
+  color: var(--text-dark);
+  margin: 0 1rem;
+} 
 /* CASE STUDY PAGE */
 .case-content {
   max-width: 700px;
@@ -172,6 +216,12 @@ section {
     height: auto;
     border-radius: 0;
     text-align: center;
+  }
+  .side-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
   }
 
   .content {
