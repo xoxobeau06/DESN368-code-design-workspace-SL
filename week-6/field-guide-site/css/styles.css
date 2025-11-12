@@ -60,6 +60,7 @@ li {
   top: 0;
   left: 0;
   height: 100%;
+  z-index: 250; /* ensure nav sits above decorative elements */
 }
 
 .side-nav ul {
@@ -207,6 +208,68 @@ pre {
 
 .back-link:hover {
   color: var(--text-dark);
+}
+/* Decorative elements */
+.decor {
+  position: absolute;
+  z-index: 5; /* put decorations above the page background but behind content */
+  opacity: 0.22;
+  pointer-events: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Ensure main content and header are rendered above decorative elements */
+.site-header,
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+.decor-isabelle {
+  bottom: -300px;
+  right: -20px;
+  width: 320px;
+  height: 320px;
+  opacity: 75%;
+  background-image: url(https://snipboard.io/njm6eL.jpg);
+}
+
+.decor-nan{
+  bottom: -1100px;
+  right: 150px;
+  width: 200px;
+  height: 200px;
+  opacity: 75%;
+  background-image: url(https://snipboard.io/Avur1L.jpg); 
+}
+
+.decor-bench {
+  bottom: -1910px;
+  left: 625px;
+  width: 340px;
+  height: 250px;
+  background-image: url(https://snipboard.io/f6qWTK.jpg); 
+  opacity: 75%;
+}
+
+
+.decor-flower {
+  bottom: -2375px;
+  right: 400px;
+  width: 300px;
+  height: 300px;
+  opacity: 75%;
+  background-image: url(https://snipboard.io/FsTYQA.jpg);
+}
+
+.decor-shell {
+  bottom: -3175px;
+  right: 600px;
+  width: 300px;
+  height: 300px;
+  opacity: 75%;
+  background-image: url(https://snipboard.io/DbVaOx.jpg);
 }
 
 /* Responsive */
