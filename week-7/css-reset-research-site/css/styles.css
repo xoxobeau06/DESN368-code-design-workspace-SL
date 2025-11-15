@@ -1,0 +1,169 @@
+
+:root {
+  --pink: #f7dce9;
+  --light-pink: #fdf3fa;
+  --rose: #e7b8cc;
+  --text: #4a3f42;
+  --white: #ffffff;
+}
+
+body {
+  font-family: "Lora", serif;
+  background: var(--light-pink);
+  color: var(--text);
+  max-width: 1100px;
+  margin: auto;
+  padding: 1.5rem;
+  line-height: 1.6;
+}
+
+
+.layout {
+  display: flex;
+  gap: 2rem;
+}
+
+
+.sidebar {
+  width: 220px;
+  background: var(--white);
+  padding: 1rem;
+  border: 2px solid var(--pink);
+  border-radius: 12px;
+  position: sticky;
+  top: 0;
+  height: fit-content;
+}
+
+.sidebar h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: var(--text);
+  padding: 0.5rem;
+  display: block;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.sidebar a:hover {
+  background: var(--pink);
+}
+
+header {
+  background: linear-gradient(#fde8f4, #f7dce9);
+  padding: 2rem 1rem;
+  border-radius: 14px;
+  border: 2px solid var(--pink);
+  text-align: center;
+}
+
+header h1 {
+  color: var(--rose);
+  margin-bottom: 0.3rem;
+}
+
+section {
+  background: var(--white);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 2px solid var(--pink);
+  margin-bottom: 2rem;
+}
+
+h2 {
+  color: var(--rose);
+  margin-bottom: 0.8rem;
+}
+
+h3 {
+  margin-top: 1rem;
+  color: var(--rose);
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  position: relative;
+  list-style: none;
+}
+
+ul li::before {
+  content: "•";
+  color: var(--rose);
+  position: absolute;
+  left: 0;
+}
+
+/* Code blocks */
+pre {
+  background: var(--pink);
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  background: var(--pink);
+  padding: 0.7rem 1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  color: var(--text);
+  border: 2px solid var(--rose);
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.back-to-top:hover {
+  background: var(--light-pink);
+}
+
+@media (max-width: 750px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .sidebar a {
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: var(--text);
+  border-top: 2px solid var(--pink);
+  margin-top: 2rem;
+}

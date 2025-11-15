@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Reset Research – Sydney Lincoln</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<!-- ✨ FLOATING SPARKLES -->
+  <div class="sparkle-container">
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+  </div>
+
+  <div class="layout">
+
+    <!-- 🌸 SIDEBAR NAVIGATION -->
+    <nav class="sidebar">
+      <h2>Navigation</h2>
+      <div class="nav-links">
+        <a href="#why-reset">Why Reset?</a>
+        <a href="#meyer-vs-josh">Meyer vs Josh</a>
+        <a href="#how-to-use">How to Use Resets</a>
+        <a href="#boilerplate">Boilerplates</a>
+        <a href="#normalize">Normalize.css</a>
+        <a href="#notes">My Notes</a>
+        <a href="#sources">Sources</a>
+      </div>
+    </nav>
+
+    <!-- 🌼 MAIN CONTENT -->
+    <main>
+
+      <!-- 🌸 GRADIENT HEADER -->
+      <header>
+        <h1>CSS Reset Research</h1>
+        <p>Week 7 – DESN 368</p>
+      </header>
+
+      <!-- ========================= -->
+      <!-- RESEARCH CONTENT SECTIONS -->
+      <!-- ========================= -->
+
+      <section id="why-reset">
+        <h2>Why Reset at All?</h2>
+        <p>Browsers ship with different default CSS rules called <strong>user-agent styles</strong>. These defaults are not consistent across Chrome, Safari, Firefox, and Edge.</p>
+
+        <p><strong>Resets solve these problems:</strong></p>
+        <ul>
+          <li>Different margin/padding defaults</li>
+          <li>Different line-heights and font sizes</li>
+          <li>Different list indentation logic</li>
+          <li>Inconsistent form behavior</li>
+        </ul>
+
+        <p>A reset creates a consistent starting point so your design system looks the same everywhere.</p>
+      </section>
+
+      <section id="meyer-vs-josh">
+        <h2>Meyer Reset vs Josh Comeau Reset</h2>
+
+        <h3>Why Use Josh's Version Over Meyer's?</h3>
+        <ol>
+          <li>
+            <strong>Modern browsers are more consistent now.</strong><br>
+            Meyer (2007) erases EVERYTHING. Josh only resets what still causes problems today.
+          </li>
+
+          <li>
+            <strong>Josh respects semantic HTML.</strong><br>
+            Meyer wipes italics, bold, and list bullets. Josh keeps them — better for readability.
+          </li>
+
+          <li>
+            <strong>Josh solves modern issues Meyer never had to consider:</strong>
+            <ul>
+              <li>Responsive media (`max-width:100%`)</li>
+              <li>Form controls inherit fonts</li>
+              <li>Better line wrapping</li>
+              <li>JS framework stacking context</li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+
+      <section id="how-to-use">
+        <h2>How Do You Use These?</h2>
+
+        <p>You can add a Reset or Normalize.css to your project in three ways:</p>
+
+        <h3>1. Link tag</h3>
+        <pre><code>&lt;link rel="stylesheet" href="reset.css"&gt;</code></pre>
+
+        <h3>2. Import</h3>
+        <pre><code>@import url("reset.css");</code></pre>
+
+        <h3>3. Paste at the top of your stylesheet</h3>
+        <pre><code>/* Reset goes here */</code></pre>
+      </section>
+
+      <section id="boilerplate">
+        <h2>What Is a CSS Boilerplate?</h2>
+
+        <p>
+          A <strong>reset</strong> removes browser defaults.<br>
+          A <strong>boilerplate</strong> adds your own base styling on top.
+        </p>
+
+        <h3>Boilerplates help when:</h3>
+        <ul>
+          <li>You want reusable patterns</li>
+          <li>Your site uses consistent spacing</li>
+          <li>You need utility classes</li>
+        </ul>
+
+        <h3>Boilerplates hurt when:</h3>
+        <ul>
+          <li>They're too opinionated</li>
+          <li>You fight them constantly</li>
+          <li>Your project is small</li>
+        </ul>
+      </section>
+
+      <section id="normalize">
+        <h2>Why Normalize.css Is Different</h2>
+        <p>Normalize doesn't wipe styles — it <strong>standardizes</strong> them across browsers.</p>
+
+        <h3>Reset vs Normalize:</h3>
+        <ul>
+          <li><strong>Reset:</strong> Remove everything.</li>
+          <li><strong>Normalize:</strong> Keep useful defaults and fix inconsistencies.</li>
+        </ul>
+
+        <p>Normalize keeps heading sizes, bullets, and semantic styles like italics.</p>
+      </section>
+
+      <section id="notes">
+        <h2>My Notes</h2>
+        <p>
+          Resets help make my layouts consistent across browsers. Meyer’s reset is older and removes too much. Josh Comeau’s reset feels modern, practical, and perfect for class projects.
+        </p>
+      </section>
+
+      <section id="sources">
+        <h2>Sources</h2>
+        <ul>
+          <li><a href="https://meyerweb.com/eric/thoughts/2007/04/18/reset-reasoning/" target="_blank">Eric Meyer – Reset Reasoning</a></li>
+          <li><a href="https://www.joshwcomeau.com/css/custom-css-reset/" target="_blank">Josh Comeau – Custom CSS Reset</a></li>
+          <li><a href="https://perishablepress.com/a-killer-collection-of-global-css-reset-styles/" target="_blank">Perishable Press Collection</a></li>
+          <li><a href="https://necolas.github.io/normalize.css/" target="_blank">Normalize.css</a></li>
+        </ul>
+      </section>
+
+      <footer>
+        <p>© 2025 Sydney Lincoln • DESN 368</p>
+      </footer>
+
+    </main>
+  </div>
+
+  <!-- 🌼 BACK TO TOP BUTTON -->
+  <a href="#top" class="back-to-top">↑ Back to Top</a>
+
+</body>
+</html>
