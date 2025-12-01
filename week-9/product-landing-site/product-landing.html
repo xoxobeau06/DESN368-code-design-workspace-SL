@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nook's Cranny - Your Island Adventure Starts Here</title>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+     <nav id="header">
+        <div class="nav-container">
+
+            <input type="checkbox" id="menu-toggle">
+
+            <div class="logo">
+                <span>Nook's Cranny</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a class="nav-link" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#items">Today's Stock</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <h1>Nook's Cranny</h1>
+        <h2>Online Edition </h2>
+        <p>Premium tools, DIY recipes, and seasonal items delivered to your island daily</p>
+        <button class="cta-button"> Shop Today's Deals</button>
+    </section>
+
+    <section class="video-section">
+        <h2>Store Tour</h2>
+
+        <div class="video-frame">
+        
+            <iframe
+                id="video"
+                referrerpolicy="strict-origin-when-cross-origin"
+                src="https://www.youtube.com/embed/8V8_nAoOR70"
+                title="Nook's Cranny Ambience"
+                frameborder="0"
+                loading="lazy"
+                allow="accelerometer; autoplay;"
+                allowfullscreen
+            ></iframe>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <h2>Why Shop With Us?</h2>
+
+        <div class="features-vertical">
+
+            <article class="feature-card">
+                <img src="https://snipboard.io/qUrxV1.jpg" alt="Nook’s Cranny storefront">
+                <div class="feature-text">
+                    <h3>Daily Rotating Stock</h3>
+                    <p>Fresh items appear every single day—explore new furniture, tools, and seasonal surprises on every visit.</p>
+                </div>
+            </article>
+
+            <article class="feature-card">
+                <img src="https://snipboard.io/FBcPNf.jpg" alt="DIY workbench">
+                <div class="feature-text">
+                    <h3>Hot Item Bonus</h3>
+                    <p>Craft today’s Hot Item at a DIY bench to earn 2× bells. Perfect for building wealth on your island.</p>
+                </div>
+            </article>
+
+            <article class="feature-card">
+                <img src="https://snipboard.io/waPxbL.jpg" alt="Timmy and Tommy">
+                <div class="feature-text">
+                    <h3>Seasonal Specials</h3>
+                    <p>Timmy & Tommy handpick limited seasonal items that appear only during special times of the year!</p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="table-section" id="items">
+        <h2>Today's Featured Items</h2>
+        <div class="table-container">
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th scope="col">Item</th>
+                        <th scope="col">Category</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Stock</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Fishing Rod</strong></td>
+                        <td>Tools</td>
+                        <td>400 Bells</td>
+                        <td class="stock-unlimited">Unlimited</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Red Cosmos Seeds</strong></td>
+                        <td>Flowers</td>
+                        <td>240 Bells</td>
+                        <td class="stock-limited">Limited</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Watering Can</strong></td>
+                        <td>Tools</td>
+                        <td>800 Bells</td>
+                        <td class="stock-unlimited">Unlimited</td>
+                    </tr>
+                    <tr>
+                        <td><strong>DIY Recipe Bundle</strong></td>
+                        <td>Crafting</td>
+                        <td>1,500 Bells</td>
+                        <td class="stock-low">3 remaining</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Wooden Chair</strong></td>
+                        <td>Furniture</td>
+                        <td>960 Bells</td>
+                        <td class="stock-low">2 remaining</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <h2>Questions? Ask Timmy & Tommy!</h2>
+        <p class="subtitle">We're here to help with all your island needs</p>
+
+        <form id="contact-form" class="form-container" action="#" method="post">
+            <div class="form-group">
+                <label for="name">Your Villager Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Island Representative Email</label>
+                <input type="email" id="email" placeholder="your.email@island.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">What can we help you find?</label>
+                <textarea id="message" placeholder="Tell us what you're looking for..." required></textarea>
+            </div>
+
+            <button id="submit" class="cta-button" style="width: 100%;">Send to Nook's Cranny</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Shop</h3>
+                <ul>
+                    <li><a href="#items">Today's Stock</a></li>
+                    <li><a href="#features">Seasonal Items</a></li>
+                    <li><a href="#home">DIY Recipes</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="#home">Our Story</a></li>
+                    <li><a href="#home">Meet the Nooks</a></li>
+                    <li><a href="#home">Store Upgrades</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#contact">FAQ</a></li>
+                    <li><a href="#contact">Returns</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 Nook's Cranny | A Nook Inc. Company</p>
+            <p> 100% Bell-Back Guarantee | Open 8am-10pm Daily</p>
+        </div>
+    </footer>
+
+</body>
+</html>
