@@ -1,90 +1,95 @@
-# [Your Name] — Web Design Portfolio
+# Sydney Lincoln — Web Design Portfolio
 
 **DESN368: Code + Design 1 | Fall 2025**  
 Eastern Washington University  
-Instructor: Travis Masingale
+Instructor: *Travis Masingale*
 
 ---
 
 ## About This Repository
 
-This repository documents my journey through DESN368, where I learned to build for the web with HTML and CSS—understanding how the web actually works at the source level.
+This repository documents my work from DESN368, where I learned how to design and build for the web using semantic HTML and CSS—slowly understanding how the web works at the source level.
 
-- **[View Live Portfolio](https://[your-username].github.io/[your-repo-name]/)**
-- **[View Learning Log](https://[your-username].github.io/[your-repo-name]/learning-log.html)** — Weekly progress & exercises
+- **🔗 Portfolio:** [index.html](./index.html)
+- **📝 Learning Log:** [learning-log.html](./learning-log.html)
 
 ---
 
 ## Design Direction
 
-For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
+For my portfolio, I pursued a **soft, feminine, cozy** aesthetic—something warm, calm, and personal.
 
-- **Header Font:** [Font Name]
-- **Body Font:** [Font Name]
-- **Primary Color:** [Hex Code]
-- **Accent Color:** [Hex Code]
-- **Background:** [Hex Code]
+- **Header Font:** Petit Formal Script  
+- **Body Font:** Zilla Slab  
+- **Primary Color:** `#FFF7F5`  
+- **Accent Color:** `#D6B08A`  
+- **Background:** `#FDF8F2`  
 
-**[View Figma File](https://www.figma.com/file/[your-figma-link])**
+**🎨 Figma File:**  
+https://www.figma.com/design/81WqawsmajZ3Zy1kSIhdNs/portfolio?node-id=1-3&t=sEUNxWn9xWcY2lSx-1
 
 ---
 
 ## Featured Projects
 
-**The Recipe**  
-[1-sentence description]  
-[View Project](./week-XX/recipe/)
+### 🍓 The Recipe
+A simple recipe page demonstrating basic HTML structure and early styling.  
+➡️ *[View Project](./week-2/recipe-site/recipe.html)*
 
-**Tribute Site**  
-[1-sentence description]  
-[View Project](./week-XX/tribute/)
+### 🎭 Tribute Site
+A tribute page honoring Angela Lansbury focused on improved hierarchy and layout.  
+➡️ *[View Project](./week-4/tribute-page-site/tribute-angela-lansbury.html)*
 
-**Field Guide**  
-[1-sentence description]  
-[View Project](./week-XX/field-guide/)
+### 📚 Field Guide
+A themed guide demonstrating navigation, imagery, and organization across pages.  
+➡️ *[View Project](./week-6/field-guide-site/field-guide.html)*
 
-**Product Landing Page**  
-[1-sentence description]  
-[View Project](./week-XX/landing-page/)
+### 🛍️ Product Landing Page
+A working landing page built with calls to action, forms, and intentional layout.  
+➡️ *[View Project](./week-9/product-landing-site/product-landing.html)*
 
 ---
 
 ## Technical Skills Demonstrated
 
-- Semantic HTML5
-- CSS Layout (Flexbox / Grid)
-- Responsive Design with media queries
-- CSS Custom Properties (variables)
-- CSS Transitions
-- Version Control with Git & GitHub
+- Semantic HTML5  
+- CSS Flexbox & Layout  
+- Responsive Design (media queries)  
+- CSS Variables  
+- CSS Transitions + Hover Animations  
+- Version Control using Git & GitHub  
+- Figma → Code workflow
 
 ---
 
 ## Archive
 
-- **[Course Log](./archive/course-log.md)** — Detailed weekly documentation
-- **[Learning Log](./learning-log.html)** — Index of all exercises and projects
+- **[Course Log](./archive/course-log.md)** — Weekly documentation  
+- **[Learning Log](./learning-log.html)** — Exercises and progress
 
 ---
 
 ## Credits & Citations
 
 **Assets**
-- [List any images, icons, or assets you didn't create]
+- Custom favicon set created in Figma  
+- Snipboard used for project image hosting  
 
 **Tutorials & Resources**
-- [Any tutorials or Stack Overflow threads that helped]
+- MDN Web Docs  
+- W3Schools examples and syntax references  
 
 **AI Assistance**
-- [If used: "Used Claude for debugging CSS grid in Week 6"]
-- [If none: "No AI assistance used"]
+- ChatGPT and Claude was used for debugging and clarifying concepts.  
+All final design decisions and code implementation were completed independently.
 
 ---
 
 ## Reflection
 
-[→ Read Full Reflection on Portfolio Site](https://[your-username].github.io/[your-repo-name]/reflection.html)
+➡️ Read the full reflection here:  
+https://xoxobeau06.github.io/DESN368-code-design-workspace-SL/reflection.html  
 
 ---
 
-© 2025 [Your Name]. Built for DESN368 at Eastern Washington University.
+© 2025 **Sydney Lincoln** — Created for DESN368 at Eastern Washington University.
