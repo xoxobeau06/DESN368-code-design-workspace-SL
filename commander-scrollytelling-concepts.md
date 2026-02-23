@@ -134,3 +134,8 @@ Implementation tip: use a tiny demo schema (`theme`, `deckName`, `lastSection`) 
 - **Dense but calm:** closing recap
 
 This alternating rhythm preserves readability and gives each "turn" a distinct pacing feel.
+
+## 8) Mockup Preview
+
+- Open `commander-scrollytelling-mockup.html` in a browser to view a static desktop mockup that demonstrates the hero structure, card panels, light/dark mode toggle, mana accents, and alternating dense/spacious section rhythm.
+- If serving locally: run `python3 -m http.server 8000` from repo root and visit `http://localhost:8000/commander-scrollytelling-mockup.html`.

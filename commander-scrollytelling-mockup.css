@@ -1,0 +1,86 @@
+:root {
+  --bg: #0d1117;
+  --panel: #151b24;
+  --text: #f4f7fb;
+  --muted: #a4b0be;
+  --border: #2b3543;
+  --shadow: 0 24px 48px rgba(0, 0, 0, 0.35);
+}
+
+html[data-theme='light'] {
+  --bg: #f3f6fb;
+  --panel: #ffffff;
+  --text: #12161d;
+  --muted: #4d5a6b;
+  --border: #d5deea;
+  --shadow: 0 18px 36px rgba(28, 38, 52, 0.12);
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: radial-gradient(circle at 20% 10%, #1d2433, var(--bg));
+  color: var(--text);
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 80px;
+  background: color-mix(in oklab, var(--bg) 80%, transparent);
+  backdrop-filter: blur(8px);
+}
+
+button { padding: 10px 14px; border-radius: 10px; border: 1px solid var(--border); background: var(--panel); color: var(--text); }
+
+.story-grid {
+  width: min(1440px, 100% - 160px);
+  margin: 0 auto;
+  display: grid;
+  gap: 32px;
+  padding: 28px 0 80px;
+}
+
+.card {
+  border: 1px solid var(--border);
+  background: var(--panel);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  padding: 24px;
+}
+
+.hero {
+  min-height: 140vh;
+  display: grid;
+  grid-template-columns: 3fr 6fr 3fr;
+  gap: 24px;
+  align-items: center;
+}
+
+.hero-focus { min-height: 420px; display: grid; align-content: center; }
+.hero-meta, .hero-stats { min-height: 320px; }
+.eyebrow { color: var(--muted); text-transform: uppercase; letter-spacing: .08em; font-size: .75rem; }
+.scroll-cue { color: var(--muted); }
+
+.section { display: grid; align-content: center; }
+.section.dense { min-height: 110vh; }
+.section.spacious { min-height: 150vh; }
+
+.mana-row { display: flex; gap: 10px; margin-top: 12px; }
+.pip { width: 18px; height: 18px; border-radius: 999px; border: 1px solid rgba(255,255,255,.4); }
+.pip.white { background: #f7f1d5; }
+.pip.blue { background: #5ea9ff; }
+.pip.black { background: #41414a; }
+.pip.red { background: #ff6d60; }
+.pip.green { background: #6ccc74; }
+
+.mana-blue { box-shadow: var(--shadow), 0 0 0 1px #5ea9ff55, 0 0 28px #5ea9ff33; }
+.mana-red { box-shadow: var(--shadow), 0 0 0 1px #ff6d6055, 0 0 28px #ff6d6033; }
+.mana-green { box-shadow: var(--shadow), 0 0 0 1px #6ccc7455, 0 0 28px #6ccc7433; }
+.mana-black { box-shadow: var(--shadow), 0 0 0 1px #76768255, 0 0 28px #76768233; }
+.mana-white { box-shadow: var(--shadow), 0 0 0 1px #f7f1d555, 0 0 28px #f7f1d533; }

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Commander x JavaScript Scrollytelling Mockup</title>
+    <link rel="stylesheet" href="commander-scrollytelling-mockup.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <p>Desktop mockup · 1440 layout preview</p>
+      <button id="themeToggle" aria-label="Toggle light and dark mode">Toggle theme</button>
+    </header>
+
+    <main class="story-grid">
+      <section class="hero spacious">
+        <aside class="hero-meta card">
+          <p class="eyebrow">Magic: The Gathering × JavaScript</p>
+          <h1>Learn JS Like You're Piloting a Commander Deck</h1>
+          <p>Scroll through eight turns: each section resolves a core JS concept.</p>
+          <p class="scroll-cue">↓ Scroll to draw your first card</p>
+        </aside>
+
+        <article class="hero-focus card mana-blue">
+          <h2>Hero Variation A — Command Zone Centerpiece</h2>
+          <p>Primary focal panel centered. Support panels sit left/right to keep one dominant visual anchor.</p>
+          <div class="mana-row">
+            <span class="pip white"></span>
+            <span class="pip blue"></span>
+            <span class="pip black"></span>
+            <span class="pip red"></span>
+            <span class="pip green"></span>
+          </div>
+        </article>
+
+        <aside class="hero-stats card">
+          <h3>Deck Stats</h3>
+          <ul>
+            <li>8 sections</li>
+            <li>Alternating dense/spacious rhythm</li>
+            <li>Card panel metaphor</li>
+            <li>Light + dark supported</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="dense section card mana-red"><h2>console.log</h2><p>Dense spell-stack treatment for debugging insights.</p></section>
+      <section class="spacious section card mana-green"><h2>variables</h2><p>Spacious board-state layout showing named value zones.</p></section>
+      <section class="dense section card mana-black"><h2>conditionals</h2><p>Two-lane battlefield branch (`if` / `else`) with state glow.</p></section>
+      <section class="spacious section card mana-blue"><h2>events</h2><p>Trigger nodes pulse on user action to represent listeners.</p></section>
+      <section class="dense section card mana-white"><h2>design tokens</h2><p>Mana-color token chips map to CSS variable groups.</p></section>
+      <section class="spacious section card mana-green"><h2>localStorage</h2><p>Persistent vault rail keeps key-value memory visible.</p></section>
+      <section class="dense section card"><h2>closing</h2><p>Recap board with resolved concepts and next-step deck upgrades.</p></section>
+    </main>
+
+    <script>
+      const btn = document.getElementById('themeToggle');
+      btn.addEventListener('click', () => {
+        const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+        document.documentElement.dataset.theme = next;
+      });
+    </script>
+  </body>
+</html>
